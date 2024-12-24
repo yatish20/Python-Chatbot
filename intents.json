@@ -1,0 +1,132 @@
+{
+    "intents": [
+        {
+            "tag": "account_balance",
+            "patterns": [
+                "What's my account balance?",
+                "How much money do I have in my account?",
+                "Can you tell me my balance?",
+                "Show me my account balance."
+            ],
+            "responses": [
+                "You can check your account balance by logging into your online banking.",
+                "Your current account balance is $5,000."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "transfer_funds",
+            "patterns": [
+                "I want to transfer money.",
+                "Send $100 to my savings account.",
+                "Can I transfer funds to another account?",
+                "Help me transfer money."
+            ],
+            "responses": [
+                "To transfer funds, please log into your account and follow the transfer instructions.",
+                "How much would you like to transfer and to which account?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "recent_transactions",
+            "patterns": [
+                "Show me my recent transactions.",
+                "What are my last three transactions?",
+                "Can I see my transaction history?",
+                "List my recent purchases."
+            ],
+            "responses": [
+                "Your recent transactions are: $50 at Starbucks, $200 at Walmart, and $75 at Amazon.",
+                "You can view your transaction history in the transaction section of your account."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "loan_inquiry",
+            "patterns": [
+                "I want to know about loan options.",
+                "What loans do you offer?",
+                "Tell me about personal loans.",
+                "How can I apply for a loan?"
+            ],
+            "responses": [
+                "We offer personal loans, auto loans, and home loans. Would you like more details on a specific type?",
+                "You can apply for a loan by visiting our website or contacting our customer service."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "credit_card_services",
+            "patterns": [
+                "Tell me about credit cards.",
+                "What are the benefits of your credit cards?",
+                "How do I apply for a credit card?",
+                "Can I get a credit card with no annual fee?"
+            ],
+            "responses": [
+                "We offer several credit card options with various benefits. Would you like to compare them?",
+                "You can apply for a credit card online through our website."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "customer_service",
+            "patterns": [
+                "I need help with my account.",
+                "Contact customer support.",
+                "I have a complaint.",
+                "How can I speak to a representative?"
+            ],
+            "responses": [
+                "You can reach our customer service at 1-800-123-4567.",
+                "Our customer support team is available 24/7. How can I assist you?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bank_hours",
+            "patterns": [
+                "What are your banking hours?",
+                "When do you close?",
+                "Are you open on weekends?",
+                "Tell me your operating hours."
+            ],
+            "responses": [
+                "We are open Monday to Friday from 9 AM to 5 PM and Saturday from 10 AM to 2 PM.",
+                "Our branch is closed on Sundays and public holidays."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "report_loss",
+            "patterns": [
+                "I lost my debit card.",
+                "What should I do if my card is stolen?",
+                "Help me report a lost card.",
+                "I need to block my credit card."
+            ],
+            "responses": [
+                "Please call our hotline at 1-800-123-4567 to report a lost or stolen card.",
+                "You can also block your card through the mobile app."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
